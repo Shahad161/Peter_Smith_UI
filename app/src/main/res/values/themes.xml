@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PeterSmith" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorOnPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="ImageShape" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="cornerSize">40dp</item>
+    </style>
+    <style name="smallImage" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="cornerSize">20dp</item>
+    </style>
+    <style name="secondImage" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="cornerSize">10dp</item>
+    </style>
+    <style name="main">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="main.BoldText">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="main.BoldText.names" >
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="main.BoldText.title">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+    <style name="main.numbers">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginStart">8dp</item>
+    </style>
+    <style name="main.toolText">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="CardIcon">
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_width">18dp</item>
+        <item name="android:layout_height">18dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+    </style>
+    <style name="circleIcon">
+        <item name="android:background">@drawable/circle</item>
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:shadowColor">@color/black</item>
+    </style>
+    <style name="friendsImage">
+        <item name="android:layout_width">65dp</item>
+        <item name="android:layout_height">65dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/girl</item>
+    </style>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Peter Smith</string>
+    <string name="peter_smith">Peter Smith</string>
+    <string name="alberta_canada">Alberta, Canada</string>
+    <string name="call">Call</string>
+    <string name="message">Message</string>
+    <string name="more">More</string>
+    <string name="time_line">Time Line</string>
+    <string name="about">About</string>
+    <string name="friends">Friends</string>
+    <string name="write_something_to_peter">Write something to Peter...</string>
+    <string name="photos">Photos</string>
+    <string name="_780">780</string>
+    <string name="see_more">See More</string>
+    <string name="carter_white">Carter White</string>
+    <string name="ashley_ren">Ashley Ren</string>
+    <string name="_12_mutual_friends">12 mutual friends</string>
+    <string name="_3_mutual_friends">3 mutual friends</string>
+    <string name="meggie_murphy">Meggie Murphy</string>
+    <string name="alex_lopez">Alex Lopez</string>
+</resources>
